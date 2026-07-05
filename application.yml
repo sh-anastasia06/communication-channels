@@ -3,4 +3,4 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://keycloak:8080/realms/comm-channels
+          jwk-set-uri: http://keycloak:8080/realms/comm-channels/protocol/openid-connect/certs
